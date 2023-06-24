@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 51px;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Passion One', 'cursive';
+    font-size: 10vw;
+}
+header h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+    
+}
+main {
+    background-color: aliceblue;
+    max-width: 100%;
+    min-width: 97%;  
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 35px;
+    font-size: 4.5vw;
+}
+p { 
+    font-size: 30px;
+}
+.p01 {
+    background-image: url(girassol.jpg);
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.p02 {
+    background-image:url(fundovintage.avif);
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.p03 {
+    background-image: url(folhas.jpg);
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.p01 > p {
+    background-color: rgba(148, 150, 34, 0.178);
+    width: 400px;
+}
+.p02 > p {
+    background-color: rgba(117, 117, 47, 0.137);
+    width: 400px;
+}
+.p03 > p {
+    background-color: rgba(63, 52, 48, 0.466);
+    width: 400px;
+}
